@@ -1,5 +1,67 @@
 header
 {
-    background-image: url(img/header.jpg);
+    background-image: url(../img/header1.jpg);
     background-size: cover;
+    height:45vh;
+    background-position: bottom;
+    border-radius: 10%;
+    width: 90vw;
+    margin: auto;
+    margin-top: .2em;
 }
+nav
+{
+    width: 65vw;
+    margin: auto;
+    margin-top: 1.5em;
+    padding: 0.5em 0em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.nav__link
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5em;
+}
+a
+{
+    text-decoration: none;
+    color: #BD8A74;
+}
+h1
+{
+    color: black;
+    position: absolute;
+    top: 14rem;
+    left: 8em;
+    font-size: 4em;
+    font-family: 'Great Vibes';
+    text-shadow: 5px 5px rgb(69, 173, 151);
+    animation-name: fadeInDown;
+    animation-duration: 4s;
+    animation-iteration-count: normal;
+}
+body
+{
+    background-image: url(../img/background.png);
+    font-family: 'Raleway', sans-serif;
+}
+a:visited
+{
+    color: #90BE72;
+}
+@keyframes fadeInDown {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }

@@ -33,7 +33,8 @@ form
     border-color: #000;
   }
   
-  textarea {
+  textarea 
+  {
     vertical-align: top;
     height: 5em;
   }
@@ -48,3 +49,58 @@ form
         text-align: center;
         margin-left: 10em;
   }
+  .footer__content
+  {
+    font-size: 0.7em;
+  }
+@media (max-width: 600px)
+{
+  form, label, textarea, input, .page, .article__btn
+  {
+    width: 70vw;
+    margin: 0;
+    padding: 0;
+  }
+  .nav__link
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  h1
+{
+    position: initial;
+}
+.footer__content
+{
+    font-size: 0.6em;
+}
+i
+{
+    margin-top: 1em;
+    font-size: 0.8em;
+}
+}
+@media (min-width: 601px) and (max-width: 1099px)
+{
+  h1
+  {
+    position: initial;
+  }
+  .nav__link
+  {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 320px)
+{
+    h1{
+        display:none;
+    }
+}
+@media (max-height: 800px)
+{
+    h1{
+        position: initial;
+    }
+}

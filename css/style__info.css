@@ -1,0 +1,26 @@
+th
+{
+    border: 0.04em solid black;
+    background-color: lightgray;
+}
+td
+{
+    border: 0.03em solid lightgrey;
+    text-align: center;
+}
+table
+{
+    border-collapse: collapse;
+    width: 20vw;
+    height: 20vh;
+    margin-left: 27em;
+}
+main
+{
+    text-align: center;
+}
+p
+{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}

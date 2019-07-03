@@ -1,3 +1,9 @@
+main
+{
+    width: 65vw;
+    margin: auto;
+    font-size: 1.1em;
+}
 header
 {
     background-image: url(../img/header1.jpg);
@@ -65,3 +71,37 @@ a:visited
       transform: translate3d(0, 0, 0);
     }
   }
+i
+{
+    margin-top: 1.5em;
+    font-weight: bold;
+    text-align: left;
+}
+footer
+{
+    background-image: url(../img/footer.jpg);
+    background-size: cover;
+    height: 30vh;
+    margin: auto;
+    text-align: center;
+    margin-top: 3em;
+    font-size: 1.4em;
+    border-radius: 10%;
+    width: 65vw;
+    margin-bottom: 1em;
+}
+.page__footer
+{
+    display: flex;
+    flex-direction: column;
+}
+.footer__content
+{
+    display:block;
+    margin-top: 2.4em;
+    font-weight: bold;
+}
+.fab
+{
+    margin-top: 3em;
+}

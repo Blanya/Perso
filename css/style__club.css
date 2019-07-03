@@ -1,0 +1,59 @@
+article
+{
+    border-bottom: solid 1px grey;
+    border-right: solid 1px grey;
+    margin-top: 4em;
+}
+h2
+{
+    text-align: center;
+}
+hr
+{
+    width: 7vw;
+}
+.article__content
+{
+    margin-top: 2em;
+    text-align: left;
+    margin-left: 7em;
+    margin-bottom: 2em;
+}
+.article__img
+{
+    height: 50vh;
+}
+figcaption
+{
+    font-size: 0.8em;
+    text-align: center;
+}
+.article__img-history
+{
+    display:flex;
+    margin-bottom: 1.5em;
+    margin-left: -3em;
+}
+.article__content-list
+{
+    list-style-type: none;
+}
+.article__img-fst, .article__img-scd, .article__img-thd, .article__img-four
+{
+    width: 11vw;
+    border: 1px solid black;
+    margin-right: 2em;
+}
+.article__img--scd
+{
+    font-style: italic;
+}
+.img__local
+{
+    height: 50vh;
+}
+.img__local-fst
+{
+    display: flex;
+    justify-content: center;
+}

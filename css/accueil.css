@@ -41,6 +41,10 @@ i
     margin-top: 1em;
     font-size: 0.8em;
 }
+footer
+{
+    font-size: 1em;
+}
 @media (min-width: 600px) and (max-width: 1099px)
 {
     h1
@@ -129,6 +133,10 @@ video
       font-size: 0.7em;
       font-weight: bold;
   }
+footer
+{
+    font-size: 1.3em;
+}
 .article__content
 {
     width: 20vw;

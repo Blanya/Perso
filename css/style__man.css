@@ -45,6 +45,10 @@ h1
 {
     font-size: 0.6em;
 }
+footer
+{
+    font-size: 1em;
+}
 i
 {
     margin-top: 1em;
@@ -146,6 +150,10 @@ hr
       font-size: 0.7em;
       font-weight: bold;
   }
+footer 
+{
+    font-size: 1.3em;
+}
 }
 @media (max-width: 320px)
 {

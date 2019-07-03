@@ -46,6 +46,10 @@ iframe
     width: 80vw;
     margin-left: 2rem;
 }
+footer
+{
+    font-size: 1em;
+}
 @media (min-width: 600px) and (max-width: 1099px)
 {
     h1
@@ -101,6 +105,10 @@ iframe
   {
       font-size: 0.7em;
       font-weight: bold;
+  }
+  footer
+  {
+      font-size: 1.3em;
   }
 }
 @media (min-width: 1460px)

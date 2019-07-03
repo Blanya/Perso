@@ -56,6 +56,10 @@ i
 {
     list-style-type: none;
 }
+footer
+{
+    font-size: 1em;
+}
 @media (min-width: 600px) and (max-width: 1099px)
 {
     h1
@@ -145,6 +149,9 @@ figcaption
 {
     display: flex;
     justify-content: center;
+}
+footer{
+    font-size: 1.3em;
 }
 }
 @media (max-width: 320px)

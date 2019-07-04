@@ -23,6 +23,10 @@ form
   {
     font-size: 1.3em;
   }
+  .footer__content
+  {
+    font-size: 1em;
+  }
   
   input, textarea 
   {
@@ -52,10 +56,6 @@ form
   {
         text-align: center;
         margin-left: 10em;
-  }
-  .footer__content
-  {
-    font-size: 0.7em;
   }
 @media (max-width: 600px)
 {

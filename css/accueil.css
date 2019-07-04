@@ -15,6 +15,10 @@
     height: auto;
     margin-left: 2rem;
 }
+ul li 
+{
+    list-style-type: none;
+}
 main
 {
     width: 95vw;
@@ -87,10 +91,6 @@ main
     width: 20vw;
     margin-top: 2em;
 }
-ul li 
-{
-    list-style-type: none;
-}
 .img__fst
 {
     height: 50vh;
@@ -130,7 +130,7 @@ video
 }
 .footer__content
   {
-      font-size: 0.7em;
+      font-size: 1em;
       font-weight: bold;
   }
 footer
